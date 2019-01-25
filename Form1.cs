@@ -43,10 +43,10 @@ namespace SinGooCMS.FiveStone
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            Thread th = new Thread(new ThreadStart(chessboard.Draw));
-            th.Start();
+            //Thread th = new Thread(new ThreadStart(chessboard.Draw));
+            //th.Start();
 
-            //chessboard.Draw();
+            chessboard.Draw();
         }
 
         private void Form1_MouseMove(object sender, MouseEventArgs e)
